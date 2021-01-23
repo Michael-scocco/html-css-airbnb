@@ -1,5 +1,59 @@
 *{
     margin-left: 0;
     padding:0;
-    box-sizing:border-box;0
+    box-sizing:border-box;
+}
+
+/* regole centratura contenitore */
+
+#container{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* inserimento immagini */
+
+#bagnarolo{
+
+    background-image:url(../img/Bagnoregio.jpg);
+
+}
+
+
+
+
+
+
+
+.landscape{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 10px 10px 5px black;
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 700;
+}
+
+div.row .write{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    /* border: solid 1px black; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    text-shadow: 3px 3px black
+
+
 }
