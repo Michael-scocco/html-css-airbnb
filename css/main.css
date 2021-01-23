@@ -17,23 +17,30 @@
 /* inserimento immagini */
 
 #bagnarolo{
-
     background-image:url(../img/Bagnoregio.jpg);
-
 }
 
+#positano{
+    background-image:url(../img/positano.jpg);
+}
 
+#venezia{
+    background-image:url(../img/venezia.jpg);
+}
 
-
-
-
-
+/* regole immagini di contenimento e ombreggiatura */
 .landscape{
     position: relative;
     background-size: cover;
     height: 100vh;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 5px 5px 2.5px black;
 }
+
+p{
+    text-shadow: 3px 3px black;
+}
+
+/* ho provato a dare l'opacità ma non funziona */
 .opacity{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -52,8 +59,8 @@ div.row .write{
     top: 50%;
     transform: translate(-50%, -50%);
 }
-p{
-    text-shadow: 3px 3px black
 
-
+/* distanziamento blocchi */
+.row{
+    margin-bottom: 30px;
 }
