@@ -42,12 +42,13 @@ p{
 
 /* ho provato a dare l'opacità ma non funziona */
 .opacity{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     left: 0;
     top: 0;
-    height: 100%;
-    z-index: 700;
+    bottom:0;
+    right: 0;
+    z-index: 100;
 }
 
 div.row .write{
@@ -58,6 +59,7 @@ div.row .write{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 150;
 }
 
 /* distanziamento blocchi */
